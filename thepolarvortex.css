@@ -1,0 +1,75 @@
+body {
+  max-width: 600px;
+  margin: auto;
+  font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+  color: #548393;
+  background-color: #D5E9F2;
+  font-size: 16px;
+  position: relative;
+}
+
+
+img {
+  position: absolute;
+  display: inline-block;
+}
+
+#land {
+  top: 11em;
+  height: 500px;
+  z-index: 10;
+}
+#albatross {
+  top: -1.5em;
+  left: 13em;
+  height: 250px;
+  z-index: 20;
+}
+#skua {
+  top: 13em;
+  left: -2em;
+  height: 200px;
+  z-index: 20;
+}
+#penguin {
+  top: 15em;
+  left: 30em;
+  height: 250px;
+  z-index: 20;
+}
+#seal {
+  top: 29em;
+  left: 2em;
+  height: 170px;
+  z-index: 30;
+}
+#whale {
+  top: 32em;
+  left: 18em;
+  height: 200px;
+  z-index: 20;
+}
+#word {
+  top: 20em;
+  left: 13em;
+  height: 140px;
+  z-index: 30;
+}
+
+.descrip {
+  position: absolute;
+  top: 22em;
+  left: 15em;
+  width: 300px;
+  font-size: 13px;
+  z-index: 40;
+  display: none;
+}
+#d-seal {
+  top: 19.5em;
+  left: 16em;
+}
+#d-skua {
+  top: 23em;
+  left: 16em;
+}

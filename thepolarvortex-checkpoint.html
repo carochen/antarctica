@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ANTARCTICA</title>
+  <link rel="stylesheet" href="thepolarvortex.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- Site navigation menu -->
+<!-- <ul class="navbar">
+  <li><a href="index.html">Home page</a>
+  <li><a href="musings.html">Musings</a>
+  <li><a href="town.html">My town</a>
+  <li><a href="links.html">Links</a>
+</ul> -->
+
+<!-- Main content -->
+  <img id="land" src="antarctica-land.svg"/>
+  <img id="albatross" src="antarctica-alb.svg"/>
+  <img id="skua" src="antarctica-skua.svg"/>
+  <img id="penguin" class="r-img" src="antarctica-peng.svg"/>
+  <img id="seal" class="r-img" src="antarctica-seal.svg"/>
+  <img id="whale" class="r-img" src="antarctica-whale.svg"/>
+  <img id="word" class="r-img" src="antarctica-wrd.svg"/>
+
+</body>
+</html>
+<script>
+  $( document ).ready(function() {});
+  // document.getElementById("albatross").addEventListener("mouseover", fadeRest();
+  // document.getElementById("#albatross").onmouseover = fadeRest;
+
+  // function fadeRest() {
+  //   $("#skua").fadeOut();
+  // }
+
+$('#albatross').hover(function() {
+  $("#skua").fadeOut();
+  $("#penguin").fadeOut();
+  $("#seal").fadeOut();
+  $("#whale").fadeOut();
+  $("#word").fadeOut();
+  }, function() {
+  $("#skua").fadeIn();
+  $("#penguin").fadeIn();
+  $("#seal").fadeIn();
+  $("#whale").fadeIn();
+  $("#word").fadeIn();
+  });
+
+  // $('#albatross').hover(function() {
+  //   $("#skua").fadeOut();
+  // });
+</script>
+
+<!-- function setAccessory(path){
+     document.getElementById('layer1').src = path;
+     //if you're using jQuery, $("#layer1").attr("src", path);
+} -->
